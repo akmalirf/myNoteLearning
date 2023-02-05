@@ -20,11 +20,19 @@ class Vehicle {
   }
 }
 
-// How to make object
-$sedan = new Vehicle("Honda","Merah",5000);
+// Inteheritance Implementation
+class car extends vehicle {
+  // Polymorphism Implementation
+  function introduce(){
+    return $this->name . " Warnanya " . $this->color . " Harganya " . $this->price;
+  }
+}
 
-// Result
+// How to make object
+$sedan = new car("Honda","Merah",5000);
+
+// Result (Polymorphism) 
 echo $sedan->introduce();
-// Honda Merah Harganya 5000
+// Honda Warnanya Merah Harganya 5000
 
 ?>

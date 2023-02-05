@@ -20,8 +20,13 @@ class Vehicle {
   }
 }
 
+// Inteheritance Implementation
+class car extends vehicle {
+
+}
+
 // How to make object
-$sedan = new Vehicle("Honda","Merah",5000);
+$sedan = new car("Honda","Merah",5000);
 
 // Result
 echo $sedan->introduce();

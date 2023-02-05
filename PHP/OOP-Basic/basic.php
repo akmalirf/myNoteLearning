@@ -2,7 +2,7 @@
 
 // how to make a class
 
-class Car {
+class Vehicle {
   // This is a Field/Property/Attributes
   public $name;
   public $color;
@@ -14,7 +14,7 @@ class Car {
 }
 
 // How to make object
-$sedan = new Car();
+$sedan = new Vehicle();
 $sedan -> name = "honda";
 $sedan -> color= "merah";
 

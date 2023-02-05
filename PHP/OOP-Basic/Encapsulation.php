@@ -12,7 +12,7 @@
 
   <?php
 
-class Car {
+class Vehicle {
   // This is a Field/Property/Attributes
   private $name;
   private $color;
@@ -38,7 +38,7 @@ class Car {
 }
 
 // How to make object
-$sedan = new car();
+$sedan = new Vehicle();
 
 // use method to manipulate property
 $sedan->set_name("honda");
