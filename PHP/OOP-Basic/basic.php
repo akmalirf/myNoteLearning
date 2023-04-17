@@ -14,7 +14,7 @@ class Vehicle {
 }
 
 // How to make object
-$sedan = new Vehicle();
+$sedan = new Vehicle("honda","kuning",20000);
 $sedan -> name = "honda";
 $sedan -> color= "merah";
 

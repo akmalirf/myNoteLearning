@@ -6,6 +6,7 @@ class Vehicle {
   // This is a Field/Property/Attributes
   public $name;
   public $color;
+  public $price;
 
   // This is a Method/Function/Behavior
   // Constructor implementation
